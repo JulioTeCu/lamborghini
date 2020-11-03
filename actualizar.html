@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registrar</title>
+    <link rel="stylesheet" href="estilos2.css">
+</head>
+<body>
+    <form action="actualizar.php" method="POST" id="form">
+        <div class="form">
+          <h1>Actualizar</h1>
+          <div class="grupo">
+            <input type="text" name="id" required><span class="barra"></span>
+            <label for="id">Ingrese su ID</label>
+          </div>
+          <div class="grupo">
+            <input type="text" name="modelo"  required><span class="barra"></span>
+            <label for="modelo">Nuevo modelo</label>
+          </div>
+          <div class="grupo">
+            <input type="text" name="matricula"  required><span class="barra"></span>
+            <label for="matricula">Nueva matrícula</label>
+          </div>
+          <div class="grupo">
+            <input type="text" name="no_INE"  required><span class="barra"></span>
+            <label for="no_INE">Número de INE</label>
+          </div>
+          <button type="submit">Actualizar</button>
+          <a href="index.html">Regresar</a>
+        </div> 
+      </form>
+</body>
+</html>

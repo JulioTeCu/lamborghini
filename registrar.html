@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registrar</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="validar.js"></script> 
+</head>
+<body>
+    <form action="registrar.php" method="POST" id="form" onsubmit="return validar();">
+        <div class="form">
+          <h1>Registro</h1>
+          <div class="grupo">
+            <input type="text" name="noserie" id="noserie" required><span class="barra"></span>
+            <label for="noserie">Número de Serie</label>
+          </div>
+          <div class="grupo">
+            <input type="text" name="modelo" id="modelo" required><span class="barra"></span>
+            <label for="modelo">Modelo</label>
+          </div>
+          <div class="grupo">
+            <input type="text" name="matricula" id="matricula" required><span class="barra"></span>
+            <label for="matricula">Matrícula</label>
+          </div>
+          <div class="grupo">
+            <input type="text" name="no_INE" id="no_INE" required><span class="barra"></span>
+            <label for="no_INE">Número de INE</label>
+          </div>
+          <button type="submit">Registrar</button>
+          <a href="index.html">Regresar</a>
+        </div> 
+      </form>
+</body>
+</html>
